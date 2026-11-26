@@ -1,0 +1,20 @@
+# Visual Studio temporary files and user settings
+.vs/
+*.user
+*.vcxproj.user
+
+# Build and intermediate outputs
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+ConsoleA.*/
+*.obj
+*.ilk
+*.pdb
+*.tlog
+*.log
+*.exe
+*.ipch
+*.iobj
+*.ipdb
