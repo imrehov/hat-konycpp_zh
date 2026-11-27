@@ -1,7 +1,8 @@
 #pragma once
 #include <string>
+#include <cstdint>
 
-enum class MugSize {
+enum class MugSize : uint8_t {
 	Small,
 	Medium,
 	Large,

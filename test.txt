@@ -1,0 +1,6 @@
+Espresso,1.99,HighPressure,15,None,Small
+Cappuccino,3.50,HighPressure,18,MilkFoam,Medium
+Melange,4.20,Filter,20,WhippedCream,Large
+TurkishCoffee,2.50,Turkish,12,None,Small
+FrenchPressCoffee,3.80,FrenchPress,22,Cream,Large
+CorruptedLine,xyz,InvalidMaking,not_a_number,None,Huge

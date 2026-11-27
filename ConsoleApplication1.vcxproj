@@ -139,17 +139,21 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="caffee.cpp" />
     <ClCompile Include="coffee.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="makingtype.cpp" />
     <ClCompile Include="milktype.cpp" />
     <ClCompile Include="mugsize.cpp" />
+    <ClCompile Include="order.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cofee.h" />
+    <ClInclude Include="caffee.h" />
+    <ClInclude Include="coffee.h" />
     <ClInclude Include="makingtype.h" />
     <ClInclude Include="milktype.h" />
     <ClInclude Include="mugsize.h" />
+    <ClInclude Include="order.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

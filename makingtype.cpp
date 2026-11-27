@@ -10,6 +10,10 @@ MakingType toMakingType(const std::string& s) {
 		return MakingType::Filter;
 	if (s == "FrenchPress")
 		return MakingType::FrenchPress;
+	if (s == "AeroPress")
+		return MakingType::AeroPress;
+	if (s == "Capsule")
+		return MakingType::Capsule;
 	else
 		throw std::invalid_argument("Invalid MakingType");
 }

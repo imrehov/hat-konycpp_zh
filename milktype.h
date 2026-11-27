@@ -1,7 +1,8 @@
 #pragma once
 #include <string>
+#include <cstdint>
 
-enum class MilkType {
+enum class MilkType : uint8_t {
 	None,
 	Milk,
 	MilkFoam,
